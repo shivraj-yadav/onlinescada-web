@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cream: #f5f0e8;
+  --cream-light: #fbf8f2;
+  --cream-dark: #ebe3d5;
+  --gold: #c9a876;
+  --gold-dark: #b89560;
+  --heading: #1a1612;
+  --text: #2a2520;
+  --muted: #7a6f60;
+  --subtle: #a89c8a;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: linear-gradient(135deg, #fbf8f2 0%, #f5f0e8 50%, #ebe3d5 100%);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Subtle grid pattern */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, rgba(201, 168, 118, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(201, 168, 118, 0.06) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+  z-index: 0;
+}

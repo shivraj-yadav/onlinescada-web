@@ -31,7 +31,6 @@ body {
   position: relative;
 }
 
-/* Hide any accidental overflow on webkit too */
 body::-webkit-scrollbar { display: none; }
 
 /* Subtle grid pattern */

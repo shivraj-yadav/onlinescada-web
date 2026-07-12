@@ -43,7 +43,7 @@
 
 /* ═══════════ LOGO ═══════════ */
 .logo-wrapper {
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.3rem;
   display: flex;
   justify-content: center;
 }
@@ -97,7 +97,7 @@
   color: var(--heading);
   line-height: 1;
   letter-spacing: -0.04em;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
 }
 
 .title .gold {
@@ -118,7 +118,7 @@
   width: 60px;
   height: 2px;
   background: linear-gradient(90deg, transparent, var(--gold), transparent);
-  margin: 0 auto 0.8rem;
+  margin: 0 auto 0.3rem;
   border-radius: 999px;
 }
 
@@ -249,7 +249,7 @@
   font-size: 0.75rem;
   color: var(--subtle);
   padding: 6px 0 2px;
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
 }
 
 .footer .brand {
@@ -263,7 +263,7 @@
 
 /* ═══════════ DEMO VIDEO ═══════════ */
 .demo-video-section {
-  margin: 0.6rem auto 0.8rem;
+  margin: 0.3rem auto 0.5rem;
   width: 100%;
   max-width: 780px;
   padding: 0 12px;
@@ -283,7 +283,7 @@
 .demo-video-wrapper {
   position: relative;
   width: 100%;
-  padding-top: 56.25%;
+  padding-top: 45%;
   border-radius: 18px;
   overflow: hidden;
   box-shadow:

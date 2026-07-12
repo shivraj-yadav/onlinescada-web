@@ -10,7 +10,7 @@ import DemoVideo from './components/DemoVideo';
 import Footer from './components/Footer';
 
 const LOGO_URL =
-  'https://lh3.googleusercontent.com/d/12ksLMZu3EnD2Gyw-4URwRGvarog5usj3';
+  'https://drive.google.com/thumbnail?id=12ksLMZu3EnD2Gyw-4URwRGvarog5usj3&sz=w400';
 
 function App() {
   return (
@@ -58,10 +58,10 @@ function App() {
             </a>
           </p>
         </div>
-      </div>
 
-      {/* Footer */}
-      <Footer />
+        {/* Footer — inside container so overflow:hidden doesn't clip it */}
+        <Footer />
+      </div>
     </>
   );
 }

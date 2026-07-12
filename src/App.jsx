@@ -6,6 +6,7 @@ import Title from './components/Title';
 import Tagline from './components/Tagline';
 import Divider from './components/Divider';
 import NotifyForm from './components/NotifyForm';
+import DemoVideo from './components/DemoVideo';
 import Footer from './components/Footer';
 
 const LOGO_URL =
@@ -41,6 +42,9 @@ function App() {
 
         {/* Divider */}
         <Divider />
+
+        {/* Demo Video */}
+        <DemoVideo />
 
         {/* Notify Section */}
         <NotifyForm />

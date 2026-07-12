@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 
 const VIDEO_URL =
-  'https://res.cloudinary.com/dt6p10djv/video/upload/q_auto:best,f_auto/v1783828355/WhatsApp_Video_2026-07-11_at_23.59.42_pdnqof.mp4';
+  'https://res.cloudinary.com/dt6p10djv/video/upload/v1783852437/OnlineSCADA_DEMO_VIDEO_oltn8w.mp4';
 
 const DemoVideo = () => {
   const [playing, setPlaying] = useState(false);
@@ -27,6 +27,7 @@ const DemoVideo = () => {
           ref={videoRef}
           className={`demo-video-player${playing ? ' demo-video-player--visible' : ''}`}
           src={VIDEO_URL}
+          poster="https://res.cloudinary.com/dt6p10djv/video/upload/so_0,w_780,q_auto,f_jpg/v1783852437/OnlineSCADA_DEMO_VIDEO_oltn8w.jpg"
           controls
           playsInline
           preload="metadata"
@@ -37,6 +38,11 @@ const DemoVideo = () => {
         {!playing && (
           <div
             className="demo-video-thumbnail"
+            style={{
+              backgroundImage: 'url(https://res.cloudinary.com/dt6p10djv/video/upload/so_0,w_780,q_auto,f_jpg/v1783852437/OnlineSCADA_DEMO_VIDEO_oltn8w.jpg)',
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
             onClick={handlePlay}
             role="button"
             tabIndex={0}

@@ -13,6 +13,4 @@ A modern, responsive pre-launch landing page for **OnlineSCADA**, built to showc
 ## Tech Stack
 
 - React.js
-- JavaScript
-- HTML5
-- CSS3
+
